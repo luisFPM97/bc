@@ -1,0 +1,66 @@
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2020/01/16/12/05/physalis-4770299_1280.jpg");
+	background-size: cover;
+    display: flex;
+    backdrop-filter: blur(2px);
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.226);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377);
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+    font-size: 50px;
+}
+
+img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+h1.name {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+p.address, p.phone {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #4caf4f3a; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	cursor:pointer
+}
+
+button:hover {
+	background-color:#3e8e41
+}
+
+a {
+	color:black
+}
+
+a:hover {
+	color:#4CAF50
+}
+
+img {
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+}
